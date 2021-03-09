@@ -24,6 +24,9 @@ public interface BookmarkedReposDao {
     @Query("SELECT * FROM bookmarkedRepos")
     LiveData<List<GitHubRepo>> getAllRepos();
 
+    @Query("SELECT * FROM bookmarkedRepos")
+    List<GitHubRepo> getAllReposSync();
+
     @Query("SELECT * FROM bookmarkedRepos WHERE fullName = :fullName LIMIT 1 ")
     LiveData<GitHubRepo> getRepoByName(String fullName);
 }

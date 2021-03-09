@@ -45,6 +45,10 @@ public class BookmarkedReposRepository {
         return this.dao.getAllRepos();
     }
 
+    public List<GitHubRepo> getAllBookmarkedReposSync() {
+        return this.dao.getAllReposSync();
+    }
+
     public LiveData<GitHubRepo> getBookmarkedRepoByName(String fullName) {
         return this.dao.getRepoByName(fullName);
     }
