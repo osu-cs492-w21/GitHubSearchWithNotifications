@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">GitHubSearch With Notifications</string>
+    <string name="search_box_hint">Search GitHub...</string>
+    <string name="search_button_text">Do Search</string>
+    <string name="loading_error">Unable to execute search.  Please check your internet connection.</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_view_on_web">View repo on GitHub.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_bookmark">Bookmark this repo</string>
+
+    <string name="nav_search">Search</string>
+    <string name="nav_bookmarked_repos">Bookmarked repos</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="share_repo_text">Check out this GitHub repo I found in the CS 492 App 🤓 %1$s (%2$s)</string>
+
+    <!-- Strings related to stars notification -->
+    <string name="stars_notification_channel" translatable="false">starsNotificationChannel</string>
+    <string name="stars_notification_channel_title">Star count updates</string>
+    <string name="stars_notification_title">New stars for %1$s!</string>
+    <string name="stars_notification_text">%1$s now has %2$d stars.</string>
+    <string name="stars_notification_summary_title">%1$d repos have new stars!</string>
+
+    <!-- Strings related to sync preference -->
+    <string name="pref_sync_key" translatable="false">pref_sync</string>
+    <string name="pref_sync_title">Sync saved repos with GitHub</string>
+
+    <!-- Strings for sort-by preference -->
+    <string name="pref_sort_key" translatable="false">pref_sort</string>
+    <string name="pref_sort_title">Sort by</string>
+    <string name="pref_sort_entry_best_match">Best match</string>
+    <string name="pref_sort_entry_stars">Stars</string>
+    <string name="pref_sort_value_stars" translatable="false">stars</string>
+    <string name="pref_sort_entry_forks">Forks</string>
+    <string name="pref_sort_value_forks" translatable="false">forks</string>
+    <string name="pref_sort_entry_updated">Most-recently updated</string>
+    <string name="pref_sort_value_updated" translatable="false">updated</string>
+    <string name="pref_sort_default">@string/pref_sort_value_stars</string>
+
+    <!-- Strings for programming language preference -->
+    <string name="pref_language_key" translatable="false">pref_language</string>
+    <string name="pref_language_title">Programming language</string>
+    <string name="pref_language_default"></string>
+    <string name="pref_language_entry_any">Any language</string>
+    <string name="pref_language_entry_c">C</string>
+    <string name="pref_language_value_c" translatable="false">c</string>
+    <string name="pref_language_entry_cpp">C++</string>
+    <string name="pref_language_value_cpp" translatable="false">c++</string>
+    <string name="pref_language_entry_java">Java</string>
+    <string name="pref_language_value_java" translatable="false">java</string>
+    <string name="pref_language_entry_kotlin">Kotlin</string>
+    <string name="pref_language_value_kotlin" translatable="false">kotlin</string>
+    <string name="pref_language_entry_javascript">Javascript</string>
+    <string name="pref_language_value_javascript" translatable="false">javascript</string>
+    <string name="pref_language_entry_rust">Rust</string>
+    <string name="pref_language_value_rust" translatable="false">rust</string>
+    <string name="pref_language_entry_python">Python</string>
+    <string name="pref_language_value_python" translatable="false">python</string>
+
+    <!-- Strings for search-in preference -->
+    <string name="pref_in_title">Search in</string>
+    <string name="pref_in_name_key" translatable="false">pref_in_name</string>
+    <string name="pref_in_name_title">Search in name</string>
+    <string name="pref_in_description_key" translatable="false">pref_in_description</string>
+    <string name="pref_in_description_title">Search in description</string>
+    <string name="pref_in_readme_key" translatable="false">pref_in_readme</string>
+    <string name="pref_in_readme_title">Search in README</string>
+
+    <!-- Strings for user preference -->
+    <string name="pref_user_key" translatable="false">pref_user</string>
+    <string name="pref_user_title">GitHub user</string>
+</resources>
